@@ -1,0 +1,21 @@
+// Primary Clr
+$softOrange: hsl(35, 77%, 62%);
+$softRed: hsl(5, 85%, 63%);
+
+// Neutral Clr
+$white: hsl(36, 100%, 99%);
+$paleWhite: hsl(233, 8%, 79%);
+$paleDark: hsl(236, 13%, 42%);
+$dark: hsl(240, 100%, 5%);
+
+// size
+$pad: 1.5rem;
+
+@mixin size {
+  width: min(90vw, 130rem);
+  margin-inline: auto;
+}
+
+@mixin fontSize {
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+}
